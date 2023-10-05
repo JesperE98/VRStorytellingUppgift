@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="Bank" id="{2f72a94e-aa8b-4d01-8e66-ef6a45203e0e}">
+		<property name="name">
+			<value>Wolf Lines</value>
+		</property>
+		<relationship name="folder">
+			<destination>{f85d5f45-40e2-42c5-9143-18a63b0476a9}</destination>
+		</relationship>
+	</object>
+</objects>

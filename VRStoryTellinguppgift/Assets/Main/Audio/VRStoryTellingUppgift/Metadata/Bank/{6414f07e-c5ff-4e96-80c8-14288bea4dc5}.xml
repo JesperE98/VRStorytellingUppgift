@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="Bank" id="{6414f07e-c5ff-4e96-80c8-14288bea4dc5}">
+		<property name="name">
+			<value>Little Red Riding Hood Lines</value>
+		</property>
+		<relationship name="folder">
+			<destination>{f85d5f45-40e2-42c5-9143-18a63b0476a9}</destination>
+		</relationship>
+	</object>
+</objects>
