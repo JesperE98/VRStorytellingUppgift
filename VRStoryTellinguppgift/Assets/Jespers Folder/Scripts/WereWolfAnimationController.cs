@@ -29,7 +29,7 @@ public class WereWolfAnimationController : MonoBehaviour
 
     void Update()
     {
-        //Movement();Låter dunder 
+        // Movement();
         if (_triggerEnter == true)
         {
            Movement();
@@ -72,7 +72,7 @@ public class WereWolfAnimationController : MonoBehaviour
         else if (_currentTarget == _pointB && _coroutineTimerDone != false && _triggerZone == false)
         {
             m_anim.ResetTrigger("StartWalking");
-            m_anim.SetTrigger("StopWalking");          
+            m_anim.SetTrigger("StopWalking");
         }
         else
         {
