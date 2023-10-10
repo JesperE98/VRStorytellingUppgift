@@ -1009,7 +1009,7 @@ PrefabInstance:
     - target: {fileID: 4883583216770334982, guid: 83520c01f96de4c4f928fd3dbccea177,
         type: 3}
       propertyPath: m_Name
-      value: NikoCatDressGrey
+      value: red riding hood
       objectReference: {fileID: 0}
     - target: {fileID: 6999624405509091270, guid: 83520c01f96de4c4f928fd3dbccea177,
         type: 3}

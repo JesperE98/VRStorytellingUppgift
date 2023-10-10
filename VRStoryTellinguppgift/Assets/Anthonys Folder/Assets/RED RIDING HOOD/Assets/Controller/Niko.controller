@@ -2,12 +2,12 @@
 %TAG !u! tag:unity3d.com,2011:
 --- !u!1102 &-8176463167334270403
 AnimatorState:
-  serializedVersion: 5
+  serializedVersion: 6
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: NikoWalks
+  m_Name: walk
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions: []
@@ -29,12 +29,12 @@ AnimatorState:
   m_TimeParameter: 
 --- !u!1102 &-2444785958939230127
 AnimatorState:
-  serializedVersion: 5
+  serializedVersion: 6
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: NikoIdle
+  m_Name: red riding
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions: []
@@ -56,12 +56,12 @@ AnimatorState:
   m_TimeParameter: 
 --- !u!1102 &-1925039110216671065
 AnimatorState:
-  serializedVersion: 5
+  serializedVersion: 6
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: NikoPickItemDown
+  m_Name: pic item
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions:
@@ -84,7 +84,7 @@ AnimatorState:
   m_TimeParameter: 
 --- !u!1107 &-392638963702957307
 AnimatorStateMachine:
-  serializedVersion: 5
+  serializedVersion: 6
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -137,12 +137,12 @@ AnimatorController:
     m_Controller: {fileID: 9100000}
 --- !u!1102 &6837457778924089109
 AnimatorState:
-  serializedVersion: 5
+  serializedVersion: 6
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: NikoRuns
+  m_Name: run
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions: []
