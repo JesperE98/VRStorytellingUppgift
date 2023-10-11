@@ -350,8 +350,8 @@ MonoBehaviour:
   switchSettingsMigration: 1
   HasSourceProject: 1
   HasPlatforms: 1
-  sourceProjectPath: Assets/Main/Audio/VRStoryTellingUppgift/VRStoryTellingUppgift.fspro
-  sourceBankPath: Assets/Main/Audio/VRStoryTellingUppgift/Build
+  sourceProjectPath: Assets/Main/Audio/FMOD Audio File/VRStoryTellingUppgift.fspro
+  sourceBankPath: Assets/Main/Audio/FMOD Audio File/Build
   sourceBankPathUnformatted: 
   BankRefreshCooldown: 5
   ShowBankRefreshWindow: 1
