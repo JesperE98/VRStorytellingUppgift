@@ -9,7 +9,12 @@ public class Trigger : MonoBehaviour
     [SerializeField] UnityEvent onTriggerEnter;
     [SerializeField] UnityEvent onTriggerExit;
 
+    private BoxCollider boxCollider;
 
+    private void Start()
+    {
+        boxCollider = GetComponent<BoxCollider>();
+    }
 
     private void OnTriggerEnter(Collider other)
     {
@@ -17,7 +22,7 @@ public class Trigger : MonoBehaviour
         onTriggerEnter.Invoke();
         if (destroyOnTriggerEnter)
         {
-            Destroy(gameObject);
+            boxCollider.enabled = false;
         }
     }
     private void OnTriggerExit(Collider other)
