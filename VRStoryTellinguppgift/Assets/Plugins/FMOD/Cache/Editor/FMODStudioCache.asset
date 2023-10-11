@@ -1,5 +1,200 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8342617897722773948
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Little Red Riding Hood Line 1
+  m_EditorClassIdentifier: 
+  Path: event:/Little Red Riding Hood Line 1
+  Guid:
+    Data1: 20023291
+    Data2: 1193460476
+    Data3: 1618914447
+    Data4: 478955029
+  Banks:
+  - {fileID: 6890691345319389950}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 33880
+--- !u!114 &-8050206471866873629
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/Main/Audio/VRStoryTellingUppgift/Build/Desktop/Master.strings.bank
+  Name: Master.strings
+  StudioPath: bank:/Master.strings
+  lastModified: 638324529556338655
+  FileSizes:
+  - Name: Desktop
+    Value: 1470
+  Exists: 1
+--- !u!114 &-7595502730931795134
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Wolf Line 2
+  m_EditorClassIdentifier: 
+  Path: event:/Wolf Line 2
+  Guid:
+    Data1: -1537050534
+    Data2: 1234556440
+    Data3: 61045691
+    Data4: 1947289643
+  Banks:
+  - {fileID: 8572898255752941739}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 32000
+--- !u!114 &-5091101705055323690
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Narrator Line 2
+  m_EditorClassIdentifier: 
+  Path: event:/Narrator Line 2
+  Guid:
+    Data1: 951596273
+    Data2: 1171763719
+    Data3: -1974799699
+    Data4: 1911041832
+  Banks:
+  - {fileID: 6890691345319389950}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 34187
+--- !u!114 &-3504597086100061582
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Dialouge 1
+  m_EditorClassIdentifier: 
+  Path: event:/Dialouge 1
+  Guid:
+    Data1: 682100177
+    Data2: 1302380632
+    Data3: -89746790
+    Data4: -1699491044
+  Banks:
+  - {fileID: 3829348830517905920}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 33835
+--- !u!114 &-3426752810421962032
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Background Sound.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/Main/Audio/VRStoryTellingUppgift/Build/Desktop/Background Sound.bank
+  Name: Background Sound
+  StudioPath: bank:/Background Sound
+  lastModified: 638324529554368191
+  FileSizes:
+  - Name: Desktop
+    Value: 1160768
+  Exists: 1
+--- !u!114 &-2229201320374700635
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/Main/Audio/VRStoryTellingUppgift/Build/Desktop/Master.bank
+  Name: Master
+  StudioPath: bank:/Master
+  lastModified: 638324529556313440
+  FileSizes:
+  - Name: Desktop
+    Value: 1036
+  Exists: 1
+--- !u!114 &-1128309303206707892
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Narrator Line 1
+  m_EditorClassIdentifier: 
+  Path: event:/Narrator Line 1
+  Guid:
+    Data1: 399138511
+    Data2: 1088043734
+    Data3: 1067185846
+    Data4: 1010974015
+  Banks:
+  - {fileID: 6890691345319389950}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 19680
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12,10 +207,301 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d32cf7c32a3ed8347bac48ef5ed56d82, type: 3}
   m_Name: FMODStudioCache
   m_EditorClassIdentifier: 
-  EditorBanks: []
-  EditorEvents: []
+  EditorBanks:
+  - {fileID: -8050206471866873629}
+  - {fileID: -3426752810421962032}
+  - {fileID: 3829348830517905920}
+  - {fileID: 6890691345319389950}
+  - {fileID: -2229201320374700635}
+  - {fileID: 5986338631169996008}
+  - {fileID: 8572898255752941739}
+  EditorEvents:
+  - {fileID: -3504597086100061582}
+  - {fileID: 7167674393031526391}
+  - {fileID: 276839409656376587}
+  - {fileID: 6923460785876932129}
+  - {fileID: -1128309303206707892}
+  - {fileID: -5091101705055323690}
+  - {fileID: -8342617897722773948}
+  - {fileID: -7595502730931795134}
+  - {fileID: 7289235149015524359}
+  - {fileID: 5142166618154093907}
+  - {fileID: 2731128505599809766}
+  - {fileID: 5149127824071379333}
   EditorParameters: []
-  MasterBanks: []
-  StringsBanks: []
-  cacheTime: 0
+  MasterBanks:
+  - {fileID: -2229201320374700635}
+  StringsBanks:
+  - {fileID: -8050206471866873629}
+  cacheTime: 638324529556715929
   cacheVersion: 131608
+--- !u!114 &276839409656376587
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Narrator Line 3
+  m_EditorClassIdentifier: 
+  Path: event:/Narrator Line 3
+  Guid:
+    Data1: -356779892
+    Data2: 1247204530
+    Data3: -1164082778
+    Data4: 1927517968
+  Banks:
+  - {fileID: 6890691345319389950}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 13467
+--- !u!114 &2731128505599809766
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/ForestBackground
+  m_EditorClassIdentifier: 
+  Path: event:/ForestBackground
+  Guid:
+    Data1: -1810401877
+    Data2: 1162375974
+    Data3: 399142562
+    Data4: -503952403
+  Banks:
+  - {fileID: -3426752810421962032}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 85110
+--- !u!114 &3829348830517905920
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Dialouges.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/Main/Audio/VRStoryTellingUppgift/Build/Desktop/Dialouges.bank
+  Name: Dialouges
+  StudioPath: bank:/Dialouges
+  lastModified: 638321887102410467
+  FileSizes:
+  - Name: Desktop
+    Value: 245568
+  Exists: 1
+--- !u!114 &5142166618154093907
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Wolf Line 1
+  m_EditorClassIdentifier: 
+  Path: event:/Wolf Line 1
+  Guid:
+    Data1: 644415107
+    Data2: 1231335742
+    Data3: 1279865261
+    Data4: -907348086
+  Banks:
+  - {fileID: 8572898255752941739}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 22307
+--- !u!114 &5149127824071379333
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Little Red Riding Hood Line 3
+  m_EditorClassIdentifier: 
+  Path: event:/Little Red Riding Hood Line 3
+  Guid:
+    Data1: 1460415929
+    Data2: 1306802190
+    Data3: -681934194
+    Data4: -809947013
+  Banks:
+  - {fileID: 6890691345319389950}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 16014
+--- !u!114 &5986338631169996008
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Narrator Lines.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/Main/Audio/VRStoryTellingUppgift/Build/Desktop/Narrator Lines.bank
+  Name: Narrator Lines
+  StudioPath: bank:/Narrator Lines
+  lastModified: 638321099396071030
+  FileSizes:
+  - Name: Desktop
+    Value: 494
+  Exists: 1
+--- !u!114 &6890691345319389950
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Little Red Riding Hood Lines.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/Main/Audio/VRStoryTellingUppgift/Build/Desktop/Little Red Riding Hood
+    Lines.bank
+  Name: Little Red Riding Hood Lines
+  StudioPath: bank:/Little Red Riding Hood Lines
+  lastModified: 638324529556177301
+  FileSizes:
+  - Name: Desktop
+    Value: 1045728
+  Exists: 1
+--- !u!114 &6923460785876932129
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Little Red Riding Hood Line 2
+  m_EditorClassIdentifier: 
+  Path: event:/Little Red Riding Hood Line 2
+  Guid:
+    Data1: 1331280752
+    Data2: 1286192581
+    Data3: 739514291
+    Data4: -1072284561
+  Banks:
+  - {fileID: 6890691345319389950}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 51820
+--- !u!114 &7167674393031526391
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Narrator Line 4
+  m_EditorClassIdentifier: 
+  Path: event:/Narrator Line 4
+  Guid:
+    Data1: 2073345103
+    Data2: 1301904172
+    Data3: 45264522
+    Data4: -481014179
+  Banks:
+  - {fileID: 6890691345319389950}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 56000
+--- !u!114 &7289235149015524359
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Wolf Line 4
+  m_EditorClassIdentifier: 
+  Path: event:/Wolf Line 4
+  Guid:
+    Data1: 1518831724
+    Data2: 1222787917
+    Data3: 1868955047
+    Data4: -204635277
+  Banks:
+  - {fileID: 8572898255752941739}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 8214
+--- !u!114 &8572898255752941739
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Wolf Lines.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/Main/Audio/VRStoryTellingUppgift/Build/Desktop/Wolf Lines.bank
+  Name: Wolf Lines
+  StudioPath: bank:/Wolf Lines
+  lastModified: 638324529556715929
+  FileSizes:
+  - Name: Desktop
+    Value: 305440
+  Exists: 1

@@ -3,10 +3,15 @@ using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEditor.Rendering;
 using UnityEngine;
+using FMODUnity;
+using UnityEngine.UIElements;
 
-public class WereWolfAnimationController : MonoBehaviour
+public class WereWolfController : MonoBehaviour
 {
+
     private Animator m_anim;
+    private GameManager m_GameManager;
+    private AudioManager m_AudioManager;
 
     [SerializeField]
     private float speed = 1.0f;
@@ -14,17 +19,23 @@ public class WereWolfAnimationController : MonoBehaviour
     private Transform _pointA, _pointB;
     [SerializeField]
     private Transform _currentTarget;
+    [SerializeField]
+    private int m_EventIndex;
     public bool _triggerEnter = false;
+    [SerializeField]
+    private GameObject[] _triggerPoints;
 
     private Vector3 _currentPosition;
     private bool _coroutineTimerDone = false;
     private bool _triggerZone = false;
 
-    
+
     void Start()
     {
         m_anim = GetComponent<Animator>();
-      
+        m_GameManager = GameObject.Find("GameManager").GetComponent<GameManager>();
+        m_AudioManager = GameObject.Find("AudioManager").GetComponent<AudioManager>();
+
     }
 
     void Update()
@@ -38,6 +49,7 @@ public class WereWolfAnimationController : MonoBehaviour
         {
             return;
         }
+        AudioRoutine();
     }
 
     public void Movement()
@@ -59,7 +71,13 @@ public class WereWolfAnimationController : MonoBehaviour
         {
             m_anim.ResetTrigger("StartWalking");
             m_anim.SetTrigger("StopWalking");
-            StartCoroutine(ContinueAnimationRoutine(5.0f));          
+            StartCoroutine(ContinueAnimationRoutine(34.0f));
+        }
+
+        else if (_currentPosition == _pointB.position)
+        {
+            m_anim.ResetTrigger("StartWalking");
+            m_anim.SetTrigger("StopWalking");
         }
 
         if (_currentTarget == _pointB && _coroutineTimerDone != false && _triggerZone != false)
@@ -80,8 +98,32 @@ public class WereWolfAnimationController : MonoBehaviour
         }
     }
 
+    private void AudioRoutine()
+    {
+        if (_currentPosition == _pointA.position)
+        {
+            if (GameManager.Instance.DialougeIsActive == false)
+            {
+                m_AudioManager.WolfSounds(m_EventIndex);
+                m_AudioManager.RidingHoodSounds(m_EventIndex);
+            }
+            GameManager.Instance.DialougeIsActive = true;
+        }
+
+        if (_currentTarget == _pointB && _triggerZone == true && GameManager.Instance.DialougeIsActive2 == false)
+        {
+            if (GameManager.Instance.DialougeIsActive2 == false)
+            {
+                _triggerPoints[0].SetActive(true);
+            }
+            GameManager.Instance.DialougeIsActive2 = true;
+        }
+    }
+    
+
     private void OnTriggerEnter(Collider other)
     {
+
         if (other.tag == "Player")
         {
             speed = 1.0f;
@@ -90,7 +132,7 @@ public class WereWolfAnimationController : MonoBehaviour
     }
 
     private void OnTriggerExit(Collider other)
-    {
+    {        
         if (other.tag == "Player")
         {
             speed = 0f;
@@ -105,5 +147,6 @@ public class WereWolfAnimationController : MonoBehaviour
         print("Coroutine Timer Done!");
         _coroutineTimerDone = true;
         _currentTarget = _pointB;
+        
     }
 }

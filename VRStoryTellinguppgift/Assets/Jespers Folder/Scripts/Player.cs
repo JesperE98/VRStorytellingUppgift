@@ -1,17 +1,27 @@
+using FMODUnity;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using static UnityEditor.Experimental.GraphView.GraphView;
 
 public class Player : MonoBehaviour
 {
-    // Start is called before the first frame update
+    private void Awake()
+    {
+        //transform.position = new Vector3(118.24f, 2.685f, 89.15f);
+    }
+
     void Start()
     {
         
     }
 
-    // Update is called once per frame
     void Update()
+    {
+
+    }
+
+    public void PlayEventOne()
     {
         
     }

@@ -5,10 +5,10 @@ using UnityEngine.UIElements;
 
 public class WerewolfCutsceneTrigger : MonoBehaviour
 {
-    private WereWolfAnimationController _enemy;
+    private WereWolfController _enemy;
     void Start()
     {
-        _enemy = GameObject.Find("WereWolf").GetComponent<WereWolfAnimationController>();
+        _enemy = GameObject.Find("WereWolf").GetComponent<WereWolfController>();
         _enemy._triggerEnter = false;
     }
 

@@ -1116,7 +1116,7 @@ retry:
 #endif
         }
 
-        public static FMOD.Studio.EventInstance CreateInstance(EventReference eventReference)
+        public static FMOD.Studio.EventInstance CreateInstance(EventReference eventReference, GameObject _wolf)
         {
             try
             {

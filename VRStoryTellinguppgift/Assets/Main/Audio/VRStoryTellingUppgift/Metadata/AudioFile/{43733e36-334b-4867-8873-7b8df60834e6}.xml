@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{43733e36-334b-4867-8873-7b8df60834e6}">
+		<property name="assetPath">
+			<value>Ambience, Forest, Birds, Wind In Trees 01 SND0432.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>96</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>85.110937500000006</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{8c7e544f-f2a3-4cc6-9a2d-32b4bcbf976b}</destination>
+		</relationship>
+	</object>
+</objects>

@@ -211,9 +211,7 @@ namespace FMODUnity
         protected void PlayEvent()
         {
             if (!EventReference.IsNull)
-            {
-                eventInstance = RuntimeManager.CreateInstance(EventReference);
-
+            {                
                 // Only attach to object if the game is actually playing, not auditioning.
                 if (Application.isPlaying && TrackTargetObject)
                 {
