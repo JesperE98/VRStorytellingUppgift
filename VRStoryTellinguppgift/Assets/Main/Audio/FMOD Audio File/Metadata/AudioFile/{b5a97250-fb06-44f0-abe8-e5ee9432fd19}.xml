@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
-	<object class="AudioFile" id="{155318c4-c0dd-473f-95da-27bfab33b5a6}">
+	<object class="AudioFile" id="{b5a97250-fb06-44f0-abe8-e5ee9432fd19}">
 		<property name="assetPath">
-			<value>Soundly Voice Designer, Jane 12.wav</value>
+			<value>Soundly Voice Designer, Jane.wav</value>
 		</property>
 		<property name="isStreaming">
 			<value>true</value>
@@ -14,7 +14,7 @@
 			<value>1</value>
 		</property>
 		<property name="length">
-			<value>29.013999999999999</value>
+			<value>30.547499999999999</value>
 		</property>
 		<relationship name="masterAssetFolder">
 			<destination>{8c7e544f-f2a3-4cc6-9a2d-32b4bcbf976b}</destination>
