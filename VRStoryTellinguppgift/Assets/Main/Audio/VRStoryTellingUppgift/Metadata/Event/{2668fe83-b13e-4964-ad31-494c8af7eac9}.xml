@@ -145,6 +145,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{bfc94b80-ecf0-45db-b478-6bca6f1d1e4e}">
+		<property name="volume">
+			<value>5</value>
+		</property>
 		<property name="name">
 			<value>Audio 1</value>
 		</property>
@@ -168,9 +171,7 @@
 	<object class="MixerBusFader" id="{7a6ddaf8-0e6f-4a0d-a499-26c335f15798}" />
 	<object class="MixerBusEffectChain" id="{222cc192-08d9-402e-98a4-992794f63d73}">
 		<relationship name="effects">
-			<destination>{8b865265-ef63-4b30-8934-fb29d309d829}</destination>
 			<destination>{b68db4b7-f1b1-46b8-98fa-9c7cf730b5ee}</destination>
-			<destination>{ccd2c349-f820-4940-8af8-025e6a0e42c5}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{39bfecc7-34cd-494a-8d3c-ee91d1de275a}" />
@@ -180,24 +181,5 @@
 			<value>2</value>
 		</property>
 	</object>
-	<object class="ProxyEffect" id="{8b865265-ef63-4b30-8934-fb29d309d829}">
-		<property name="inputFormat">
-			<value>0</value>
-		</property>
-		<relationship name="preset">
-			<destination>{f8b33246-6a68-4c5e-9b88-b0d91cab6776}</destination>
-		</relationship>
-	</object>
 	<object class="MixerBusFader" id="{b68db4b7-f1b1-46b8-98fa-9c7cf730b5ee}" />
-	<object class="PitchShifterEffect" id="{ccd2c349-f820-4940-8af8-025e6a0e42c5}">
-		<property name="pitch">
-			<value>0.939999998</value>
-		</property>
-		<property name="fftSize">
-			<value>2800</value>
-		</property>
-		<property name="overlap">
-			<value>32</value>
-		</property>
-	</object>
 </objects>

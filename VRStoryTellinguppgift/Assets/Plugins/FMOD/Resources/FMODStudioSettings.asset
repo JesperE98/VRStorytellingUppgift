@@ -379,6 +379,7 @@ MonoBehaviour:
   - Dialouges
   - Little Red Riding Hood Lines
   - Narrator Lines
+  - Random Lines
   - Wolf Lines
   BanksToLoad: []
   LiveUpdatePort: 9264

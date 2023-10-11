@@ -12,11 +12,13 @@ public class WereWolfController : MonoBehaviour
     private Animator m_anim;
     private GameManager m_GameManager;
     private AudioManager m_AudioManager;
+    [SerializeField]
+    private BoxCollider _boxCollider;
 
     [SerializeField]
     private float speed = 1.0f;
     [SerializeField]
-    private Transform _pointA, _pointB;
+    private Transform _pointA, _pointB, _pointC;
     [SerializeField]
     private Transform _currentTarget;
     [SerializeField]
@@ -32,18 +34,24 @@ public class WereWolfController : MonoBehaviour
 
     void Start()
     {
+        _boxCollider = GetComponent<BoxCollider>();
         m_anim = GetComponent<Animator>();
         m_GameManager = GameObject.Find("GameManager").GetComponent<GameManager>();
         m_AudioManager = GameObject.Find("AudioManager").GetComponent<AudioManager>();
 
+        _currentTarget = _pointA;
     }
 
     void Update()
     {
-        // Movement();
+
         if (_triggerEnter == true)
         {
            Movement();
+        }
+        else if (_currentTarget == _pointC)
+        {
+            Movement2();
         }
         else
         {
@@ -57,27 +65,20 @@ public class WereWolfController : MonoBehaviour
         float step = speed * Time.deltaTime;
 
         _currentPosition = transform.position;
-        
-        m_anim.SetTrigger("StartWalking");      
-        
+
         if (_coroutineTimerDone == false)
         {
             _currentTarget = _pointA;
             transform.position = Vector3.MoveTowards(transform.position, _pointA.position, step);
+            m_anim.SetTrigger("StartWalking");
         }
 
 
-        if (_currentPosition == _pointA.position)
+        if (_currentPosition == _pointA.position && _coroutineTimerDone == false)
         {
             m_anim.ResetTrigger("StartWalking");
             m_anim.SetTrigger("StopWalking");
-            StartCoroutine(ContinueAnimationRoutine(34.0f));
-        }
-
-        else if (_currentPosition == _pointB.position)
-        {
-            m_anim.ResetTrigger("StartWalking");
-            m_anim.SetTrigger("StopWalking");
+            StartCoroutine(ContinueToPointBRoutine(34.0f));
         }
 
         if (_currentTarget == _pointB && _coroutineTimerDone != false && _triggerZone != false)
@@ -92,10 +93,29 @@ public class WereWolfController : MonoBehaviour
             m_anim.ResetTrigger("StartWalking");
             m_anim.SetTrigger("StopWalking");
         }
-        else
+
+        if (_currentPosition == _pointB.position)
         {
-            return;
+            transform.rotation = Quaternion.Euler(0.0f, -80.0f, 0f);
+            m_anim.ResetTrigger("StartWalking");
+            m_anim.SetTrigger("StopWalking");
+            StartCoroutine(ContinueToPointCRoutine(22.0f));
+
         }
+    }
+
+    private void Movement2 ()
+    {
+        float step = speed * Time.deltaTime;
+        _boxCollider.enabled = false;
+
+        speed = 2.0f;
+        m_anim.ResetTrigger("StopWalking");
+        m_anim.SetTrigger("StartRunning");
+
+        transform.rotation = Quaternion.Euler(0.0f, 10.0f, 0f);
+        transform.position = Vector3.MoveTowards(transform.position, _pointC.position, step);
+        StartCoroutine(DeactivateWolfRoutine());
     }
 
     private void AudioRoutine()
@@ -123,7 +143,6 @@ public class WereWolfController : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-
         if (other.tag == "Player")
         {
             speed = 1.0f;
@@ -141,12 +160,25 @@ public class WereWolfController : MonoBehaviour
     }
 
 
-    private IEnumerator ContinueAnimationRoutine(float waitTime)
+    private IEnumerator ContinueToPointBRoutine(float waitTime)
     {
         yield return new WaitForSeconds(waitTime);
-        print("Coroutine Timer Done!");
         _coroutineTimerDone = true;
-        _currentTarget = _pointB;
-        
+        _currentTarget = _pointB;        
+    }
+
+    private IEnumerator ContinueToPointCRoutine(float waitTime)
+    {
+
+        yield return new WaitForSeconds(waitTime);
+        _triggerEnter = false;
+        _currentTarget = _pointC;
+
+    }
+
+    IEnumerator DeactivateWolfRoutine()
+    {
+        yield return new WaitForSeconds(3.0f);
+        this.gameObject.SetActive(false);
     }
 }

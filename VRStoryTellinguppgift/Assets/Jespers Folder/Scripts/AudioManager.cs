@@ -13,6 +13,8 @@ public class AudioManager :  MonoBehaviour
     [SerializeField]
     private EventReference[] m_NarratorEvents;
     [SerializeField]
+    private EventReference[] m_RandomCharacterEvents;
+    [SerializeField]
     private GameObject _player;
     [SerializeField]
     private GameObject _wolf;
@@ -41,27 +43,8 @@ public class AudioManager :  MonoBehaviour
         RuntimeManager.PlayOneShotAttached(m_RidingHoodEvents[i], _player);
     }
 
-    /*
-    public void StartInstances()
+    public void RandomCharacterSounds(int i)
     {
-        m_WolfInstance.start();
-        m_RidingHoodInstance.start();
-        m_NarratorInstance.start();
+        RuntimeManager.PlayOneShotAttached(m_RandomCharacterEvents[i], _wolf);
     }
-
-    public void PauseInstances()
-    {
-        m_WolfInstance.setPaused(true);
-        m_RidingHoodInstance.setPaused(true);
-        m_NarratorInstance.setPaused(true);
-    }
-
-    public void UnPauseInstances()
-    {
-        m_WolfInstance.setPaused(false);
-        m_RidingHoodInstance.setPaused(false);
-        m_NarratorInstance.setPaused(false);
-    }
-    */
-
 }

@@ -5,7 +5,10 @@ using UnityEngine.SceneManagement;
 
 public class SceneLoader : MonoBehaviour
 {
-    private int sceneIndex = 0;
+    [SerializeField]
+    private int sceneIndex;
+    [SerializeField]
+    private float timer;
 
     [SerializeField]
     private GameObject obj;
@@ -27,9 +30,9 @@ public class SceneLoader : MonoBehaviour
 
     private IEnumerator LoadSceneRoutine()
     {
-        yield return new WaitForSeconds(3.0f);
+        yield return new WaitForSeconds(timer);
 
-        AsyncOperation asyncLoad = SceneManager.LoadSceneAsync(sceneIndex++);
+        AsyncOperation asyncLoad = SceneManager.LoadSceneAsync(sceneIndex);
 
         while (!asyncLoad.isDone)
         {
