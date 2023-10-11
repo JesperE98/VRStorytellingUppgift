@@ -19,7 +19,7 @@ MonoBehaviour:
     Data3: 1618914447
     Data4: 478955029
   Banks:
-  - {fileID: 6890691345319389950}
+  - {fileID: -2469427919048593606}
   IsStream: 1
   Is3D: 1
   IsOneShot: 1
@@ -27,26 +27,6 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 33880
---- !u!114 &-8050206471866873629
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Master.strings.bank
-  m_EditorClassIdentifier: 
-  Path: Assets/Main/Audio/VRStoryTellingUppgift/Build/Desktop/Master.strings.bank
-  Name: Master.strings
-  StudioPath: bank:/Master.strings
-  lastModified: 638326373888424853
-  FileSizes:
-  - Name: Desktop
-    Value: 1832
-  Exists: 1
 --- !u!114 &-7595502730931795134
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -66,7 +46,7 @@ MonoBehaviour:
     Data3: 61045691
     Data4: 1947289643
   Banks:
-  - {fileID: 8572898255752941739}
+  - {fileID: -4913785439490226314}
   IsStream: 1
   Is3D: 1
   IsOneShot: 1
@@ -74,6 +54,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 32000
+--- !u!114 &-7131037399936467485
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Narrator Line 10
+  m_EditorClassIdentifier: 
+  Path: event:/Narrator Line 10
+  Guid:
+    Data1: 596609202
+    Data2: 1215264424
+    Data3: -1599281249
+    Data4: -1775215579
+  Banks:
+  - {fileID: 4925173543541271543}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 30547
 --- !u!114 &-5091101705055323690
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -93,7 +100,7 @@ MonoBehaviour:
     Data3: -1974799699
     Data4: 1911041832
   Banks:
-  - {fileID: 6890691345319389950}
+  - {fileID: -2469427919048593606}
   IsStream: 1
   Is3D: 1
   IsOneShot: 1
@@ -101,6 +108,26 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 34187
+--- !u!114 &-4913785439490226314
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Wolf Lines.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/Main/Audio/FMOD Audio File/Build/Desktop/Wolf Lines.bank
+  Name: Wolf Lines
+  StudioPath: bank:/Wolf Lines
+  lastModified: 638326536204175400
+  FileSizes:
+  - Name: Desktop
+    Value: 341824
+  Exists: 1
 --- !u!114 &-4325127349361483209
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -120,7 +147,7 @@ MonoBehaviour:
     Data3: -1842872943
     Data4: 1853662880
   Banks:
-  - {fileID: 5986338631169996008}
+  - {fileID: 4925173543541271543}
   IsStream: 1
   Is3D: 1
   IsOneShot: 1
@@ -128,6 +155,26 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 24193
+--- !u!114 &-3638308683922951286
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/Main/Audio/FMOD Audio File/Build/Desktop/Master.strings.bank
+  Name: Master.strings
+  StudioPath: bank:/Master.strings
+  lastModified: 638326550858796335
+  FileSizes:
+  - Name: Desktop
+    Value: 1876
+  Exists: 1
 --- !u!114 &-3504597086100061582
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -147,7 +194,7 @@ MonoBehaviour:
     Data3: -89746790
     Data4: -1699491044
   Banks:
-  - {fileID: 3829348830517905920}
+  - {fileID: 1029014405949240367}
   IsStream: 1
   Is3D: 1
   IsOneShot: 1
@@ -155,26 +202,6 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 33835
---- !u!114 &-3426752810421962032
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Background Sound.bank
-  m_EditorClassIdentifier: 
-  Path: Assets/Main/Audio/VRStoryTellingUppgift/Build/Desktop/Background Sound.bank
-  Name: Background Sound
-  StudioPath: bank:/Background Sound
-  lastModified: 638324529554368191
-  FileSizes:
-  - Name: Desktop
-    Value: 1160768
-  Exists: 1
 --- !u!114 &-3366231030328951560
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -194,7 +221,7 @@ MonoBehaviour:
     Data3: 1867947433
     Data4: -2125648266
   Banks:
-  - {fileID: 6890691345319389950}
+  - {fileID: -2469427919048593606}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -202,6 +229,46 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 2653
+--- !u!114 &-3129951562582350611
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Background Sound.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/Main/Audio/FMOD Audio File/Build/Desktop/Background Sound.bank
+  Name: Background Sound
+  StudioPath: bank:/Background Sound
+  lastModified: 638326536196122410
+  FileSizes:
+  - Name: Desktop
+    Value: 1160768
+  Exists: 1
+--- !u!114 &-3051658151256341797
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Random Lines.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/Main/Audio/FMOD Audio File/Build/Desktop/Random Lines.bank
+  Name: Random Lines
+  StudioPath: bank:/Random Lines
+  lastModified: 638326536202876562
+  FileSizes:
+  - Name: Desktop
+    Value: 73664
+  Exists: 1
 --- !u!114 &-2563860165273873205
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -221,7 +288,7 @@ MonoBehaviour:
     Data3: 1416076715
     Data4: 1305884505
   Banks:
-  - {fileID: 5986338631169996008}
+  - {fileID: 4925173543541271543}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -229,6 +296,26 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 4653
+--- !u!114 &-2469427919048593606
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Little Red Riding Hood Lines.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/Main/Audio/FMOD Audio File/Build/Desktop/Little Red Riding Hood Lines.bank
+  Name: Little Red Riding Hood Lines
+  StudioPath: bank:/Little Red Riding Hood Lines
+  lastModified: 638326536200709899
+  FileSizes:
+  - Name: Desktop
+    Value: 1088224
+  Exists: 1
 --- !u!114 &-2460546500380156201
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -248,7 +335,7 @@ MonoBehaviour:
     Data3: -1837988705
     Data4: -1136014012
   Banks:
-  - {fileID: 4320183853193026176}
+  - {fileID: -3051658151256341797}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -256,26 +343,6 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 9093
---- !u!114 &-2229201320374700635
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Master.bank
-  m_EditorClassIdentifier: 
-  Path: Assets/Main/Audio/VRStoryTellingUppgift/Build/Desktop/Master.bank
-  Name: Master
-  StudioPath: bank:/Master
-  lastModified: 638326373888394495
-  FileSizes:
-  - Name: Desktop
-    Value: 1036
-  Exists: 1
 --- !u!114 &-1128309303206707892
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -295,7 +362,7 @@ MonoBehaviour:
     Data3: 1067185846
     Data4: 1010974015
   Banks:
-  - {fileID: 6890691345319389950}
+  - {fileID: -2469427919048593606}
   IsStream: 1
   Is3D: 1
   IsOneShot: 1
@@ -316,14 +383,14 @@ MonoBehaviour:
   m_Name: FMODStudioCache
   m_EditorClassIdentifier: 
   EditorBanks:
-  - {fileID: -8050206471866873629}
-  - {fileID: -3426752810421962032}
-  - {fileID: 3829348830517905920}
-  - {fileID: 6890691345319389950}
-  - {fileID: -2229201320374700635}
-  - {fileID: 5986338631169996008}
-  - {fileID: 8572898255752941739}
-  - {fileID: 4320183853193026176}
+  - {fileID: -3638308683922951286}
+  - {fileID: -3129951562582350611}
+  - {fileID: 1029014405949240367}
+  - {fileID: -2469427919048593606}
+  - {fileID: 7084057050574857009}
+  - {fileID: 4925173543541271543}
+  - {fileID: -3051658151256341797}
+  - {fileID: -4913785439490226314}
   EditorEvents:
   - {fileID: -3504597086100061582}
   - {fileID: 7167674393031526391}
@@ -346,12 +413,13 @@ MonoBehaviour:
   - {fileID: 7173329973192162497}
   - {fileID: -2563860165273873205}
   - {fileID: -2460546500380156201}
+  - {fileID: -7131037399936467485}
   EditorParameters: []
   MasterBanks:
-  - {fileID: -2229201320374700635}
+  - {fileID: 7084057050574857009}
   StringsBanks:
-  - {fileID: -8050206471866873629}
-  cacheTime: 638326373889639199
+  - {fileID: -3638308683922951286}
+  cacheTime: 638326550860863989
   cacheVersion: 131608
 --- !u!114 &276839409656376587
 MonoBehaviour:
@@ -372,7 +440,7 @@ MonoBehaviour:
     Data3: -1164082778
     Data4: 1927517968
   Banks:
-  - {fileID: 6890691345319389950}
+  - {fileID: -2469427919048593606}
   IsStream: 1
   Is3D: 1
   IsOneShot: 1
@@ -399,7 +467,7 @@ MonoBehaviour:
     Data3: 547484825
     Data4: -405009663
   Banks:
-  - {fileID: 5986338631169996008}
+  - {fileID: 4925173543541271543}
   IsStream: 1
   Is3D: 1
   IsOneShot: 1
@@ -407,6 +475,26 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 11933
+--- !u!114 &1029014405949240367
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Dialouges.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/Main/Audio/FMOD Audio File/Build/Desktop/Dialouges.bank
+  Name: Dialouges
+  StudioPath: bank:/Dialouges
+  lastModified: 638326536197868221
+  FileSizes:
+  - Name: Desktop
+    Value: 245568
+  Exists: 1
 --- !u!114 &2111393364619050003
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -426,7 +514,7 @@ MonoBehaviour:
     Data3: 679911089
     Data4: -1741341539
   Banks:
-  - {fileID: 4320183853193026176}
+  - {fileID: -3051658151256341797}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -453,7 +541,7 @@ MonoBehaviour:
     Data3: 399142562
     Data4: -503952403
   Banks:
-  - {fileID: -3426752810421962032}
+  - {fileID: -3129951562582350611}
   IsStream: 1
   Is3D: 1
   IsOneShot: 1
@@ -480,7 +568,7 @@ MonoBehaviour:
     Data3: -1865702761
     Data4: 19748987
   Banks:
-  - {fileID: 5986338631169996008}
+  - {fileID: 4925173543541271543}
   IsStream: 1
   Is3D: 1
   IsOneShot: 1
@@ -488,7 +576,7 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 32140
---- !u!114 &3829348830517905920
+--- !u!114 &4925173543541271543
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -498,35 +586,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Dialouges.bank
+  m_Name: bank:/Narrator Lines.bank
   m_EditorClassIdentifier: 
-  Path: Assets/Main/Audio/VRStoryTellingUppgift/Build/Desktop/Dialouges.bank
-  Name: Dialouges
-  StudioPath: bank:/Dialouges
-  lastModified: 638321887102410467
+  Path: Assets/Main/Audio/FMOD Audio File/Build/Desktop/Narrator Lines.bank
+  Name: Narrator Lines
+  StudioPath: bank:/Narrator Lines
+  lastModified: 638326550860863989
   FileSizes:
   - Name: Desktop
-    Value: 245568
-  Exists: 1
---- !u!114 &4320183853193026176
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Random Lines.bank
-  m_EditorClassIdentifier: 
-  Path: Assets/Main/Audio/VRStoryTellingUppgift/Build/Desktop/Random Lines.bank
-  Name: Random Lines
-  StudioPath: bank:/Random Lines
-  lastModified: 638326373889639199
-  FileSizes:
-  - Name: Desktop
-    Value: 73664
+    Value: 616096
   Exists: 1
 --- !u!114 &5142166618154093907
 MonoBehaviour:
@@ -547,7 +615,7 @@ MonoBehaviour:
     Data3: 1279865261
     Data4: -907348086
   Banks:
-  - {fileID: 8572898255752941739}
+  - {fileID: -4913785439490226314}
   IsStream: 1
   Is3D: 1
   IsOneShot: 1
@@ -574,7 +642,7 @@ MonoBehaviour:
     Data3: -681934194
     Data4: -809947013
   Banks:
-  - {fileID: 6890691345319389950}
+  - {fileID: -2469427919048593606}
   IsStream: 1
   Is3D: 1
   IsOneShot: 1
@@ -582,47 +650,6 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 23589
---- !u!114 &5986338631169996008
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Narrator Lines.bank
-  m_EditorClassIdentifier: 
-  Path: Assets/Main/Audio/VRStoryTellingUppgift/Build/Desktop/Narrator Lines.bank
-  Name: Narrator Lines
-  StudioPath: bank:/Narrator Lines
-  lastModified: 638326373889034999
-  FileSizes:
-  - Name: Desktop
-    Value: 401088
-  Exists: 1
---- !u!114 &6890691345319389950
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Little Red Riding Hood Lines.bank
-  m_EditorClassIdentifier: 
-  Path: Assets/Main/Audio/VRStoryTellingUppgift/Build/Desktop/Little Red Riding Hood
-    Lines.bank
-  Name: Little Red Riding Hood Lines
-  StudioPath: bank:/Little Red Riding Hood Lines
-  lastModified: 638326345571203254
-  FileSizes:
-  - Name: Desktop
-    Value: 1088224
-  Exists: 1
 --- !u!114 &6923460785876932129
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -642,7 +669,7 @@ MonoBehaviour:
     Data3: 739514291
     Data4: -1072284561
   Banks:
-  - {fileID: 6890691345319389950}
+  - {fileID: -2469427919048593606}
   IsStream: 1
   Is3D: 1
   IsOneShot: 1
@@ -650,6 +677,26 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 51820
+--- !u!114 &7084057050574857009
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/Main/Audio/FMOD Audio File/Build/Desktop/Master.bank
+  Name: Master
+  StudioPath: bank:/Master
+  lastModified: 638326550858780980
+  FileSizes:
+  - Name: Desktop
+    Value: 1036
+  Exists: 1
 --- !u!114 &7167674393031526391
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -669,7 +716,7 @@ MonoBehaviour:
     Data3: 45264522
     Data4: -481014179
   Banks:
-  - {fileID: 6890691345319389950}
+  - {fileID: -2469427919048593606}
   IsStream: 1
   Is3D: 1
   IsOneShot: 1
@@ -696,7 +743,7 @@ MonoBehaviour:
     Data3: -2048890227
     Data4: -984373218
   Banks:
-  - {fileID: 5986338631169996008}
+  - {fileID: 4925173543541271543}
   IsStream: 1
   Is3D: 1
   IsOneShot: 1
@@ -723,7 +770,7 @@ MonoBehaviour:
     Data3: 1868955047
     Data4: -204635277
   Banks:
-  - {fileID: 8572898255752941739}
+  - {fileID: -4913785439490226314}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -750,7 +797,7 @@ MonoBehaviour:
     Data3: -230324582
     Data4: 1395896263
   Banks:
-  - {fileID: 8572898255752941739}
+  - {fileID: -4913785439490226314}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -758,23 +805,3 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 5700
---- !u!114 &8572898255752941739
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Wolf Lines.bank
-  m_EditorClassIdentifier: 
-  Path: Assets/Main/Audio/VRStoryTellingUppgift/Build/Desktop/Wolf Lines.bank
-  Name: Wolf Lines
-  StudioPath: bank:/Wolf Lines
-  lastModified: 638326345572767308
-  FileSizes:
-  - Name: Desktop
-    Value: 341824
-  Exists: 1
