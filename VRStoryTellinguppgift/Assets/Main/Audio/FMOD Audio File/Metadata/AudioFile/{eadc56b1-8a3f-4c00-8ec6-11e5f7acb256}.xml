@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{eadc56b1-8a3f-4c00-8ec6-11e5f7acb256}">
+		<property name="assetPath">
+			<value>Soundly Voice Designer, Guy 2.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>2.0535000000000001</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{8c7e544f-f2a3-4cc6-9a2d-32b4bcbf976b}</destination>
+		</relationship>
+	</object>
+</objects>

@@ -9,10 +9,12 @@ public class WolfAudioTrigger : MonoBehaviour
 
     [SerializeField]
     private int _eventsSoundIndex;
+    private BoxCollider boxCollider;
+
 
     private void Start()
     {
-        
+        boxCollider = GetComponent<BoxCollider>();
     }
 
     private void OnTriggerEnter(Collider other)
@@ -21,7 +23,7 @@ public class WolfAudioTrigger : MonoBehaviour
         if (other.tag == "Player")
         {
             m_AudioManager.WolfSounds(_eventsSoundIndex);
-            this.gameObject.SetActive(false);
+            boxCollider.enabled = false;
         }
     }
 

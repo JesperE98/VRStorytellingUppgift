@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{c8ca16bd-218f-46d7-8d4f-d7682e2a10f4}">
+		<property name="assetPath">
+			<value>Soundly Voice Designer, Jane 17.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>16.560500000000001</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{8c7e544f-f2a3-4cc6-9a2d-32b4bcbf976b}</destination>
+		</relationship>
+	</object>
+</objects>

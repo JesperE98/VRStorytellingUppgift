@@ -6,6 +6,7 @@ using UnityEngine;
 public class NarratorAudioTrigger : MonoBehaviour
 {
     private AudioManager m_AudioManager;
+    private BoxCollider boxCollider;
 
 
     [SerializeField]
@@ -13,7 +14,7 @@ public class NarratorAudioTrigger : MonoBehaviour
 
     private void Start()
     {
-
+        boxCollider = GetComponent<BoxCollider>();
     }
 
     private void OnTriggerEnter(Collider other)
@@ -22,7 +23,7 @@ public class NarratorAudioTrigger : MonoBehaviour
         if (other.tag == "Player")
         {
             m_AudioManager.NarratorSound(_eventsSoundIndex);
-            gameObject.SetActive(false);      
+            boxCollider.enabled = false;
         }
     }
 

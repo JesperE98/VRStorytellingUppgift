@@ -4,11 +4,13 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class SceneLoader : MonoBehaviour
-{
-    [SerializeField]
-    private int sceneIndex;
+{   
+    private int sceneIndex = 0;
+
     [SerializeField]
     private float timer;
+    [SerializeField]
+    private float fadeOutSetActiveTimer;
 
     [SerializeField]
     private GameObject obj;
@@ -21,9 +23,9 @@ public class SceneLoader : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
        if (other.tag == "Player")
-        {
-            obj.SetActive(true);
+        {            
             StartCoroutine(LoadSceneRoutine());
+            StartCoroutine(FadeOutRoutine());
         }
     }
 
@@ -32,13 +34,17 @@ public class SceneLoader : MonoBehaviour
     {
         yield return new WaitForSeconds(timer);
 
-        AsyncOperation asyncLoad = SceneManager.LoadSceneAsync(sceneIndex);
+        AsyncOperation asyncLoad = SceneManager.LoadSceneAsync(sceneIndex++);
 
         while (!asyncLoad.isDone)
         {
             yield return null;
         }
+    }
 
-
+    private IEnumerator FadeOutRoutine()
+    {
+        yield return new WaitForSeconds(fadeOutSetActiveTimer);
+        obj.SetActive(true);
     }
 }
