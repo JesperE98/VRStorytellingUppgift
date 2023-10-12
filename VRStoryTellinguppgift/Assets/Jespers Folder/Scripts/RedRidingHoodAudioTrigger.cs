@@ -6,13 +6,14 @@ using UnityEngine;
 public class RedRidingHoodAudioTrigger : MonoBehaviour
 {
     private AudioManager m_AudioManager;
+    private BoxCollider boxCollider;
 
     [SerializeField]
     private int _eventsSoundIndex;
 
     private void Start()
     {
-        
+        boxCollider = GetComponent<BoxCollider>();
     }
 
     private void OnTriggerEnter(Collider other)
@@ -21,7 +22,7 @@ public class RedRidingHoodAudioTrigger : MonoBehaviour
         if (other.tag == "Player")
         {
             m_AudioManager.RidingHoodSounds(_eventsSoundIndex);
-            this.gameObject.SetActive(false);
+            boxCollider.enabled = false;
         }
     }
 

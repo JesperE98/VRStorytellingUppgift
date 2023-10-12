@@ -581,6 +581,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneIndex: 2
+  timer: 0
+  fadeOutSetActiveTimer: 0
   obj: {fileID: 5582162343524249365}
 --- !u!1 &595288040
 GameObject:
@@ -3218,7 +3220,6 @@ GameObject:
   - component: {fileID: 4617049985797373810}
   - component: {fileID: 3871656913823023792}
   - component: {fileID: 6255824586749551463}
-  - component: {fileID: 3669732068247420225}
   m_Layer: 2
   m_Name: Player
   m_TagString: Player
@@ -12305,18 +12306,6 @@ Transform:
   - {fileID: 4697128313069593402}
   m_Father: {fileID: 2021724229}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &3669732068247420225
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 339898393768651903}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 87e25e120d2c6ff4e9a4b75e90e98777, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!33 &3688223355937048172
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -28252,6 +28241,7 @@ MonoBehaviour:
       Data3: 45264522
       Data4: -481014179
     Path: event:/Narrator Line 4
+  m_RandomCharacterEvents: []
   _player: {fileID: 339898393768651903}
   _wolf: {fileID: 4020679712838325969}
 --- !u!33 &8436664080469315014
@@ -29566,6 +29556,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneIndex: 0
+  timer: 0
+  fadeOutSetActiveTimer: 0
   obj: {fileID: 5582162343524249365}
 --- !u!54 &8902965780311592015
 Rigidbody:
