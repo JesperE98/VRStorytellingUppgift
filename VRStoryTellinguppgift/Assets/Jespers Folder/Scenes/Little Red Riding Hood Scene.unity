@@ -17347,7 +17347,6 @@ GameObject:
   - component: {fileID: 7926692071241313845}
   - component: {fileID: 8902965780311592012}
   - component: {fileID: 8902965780311592013}
-  - component: {fileID: 8902965780311592014}
   - component: {fileID: 8902965780311592015}
   m_Layer: 0
   m_Name: Baker_house
@@ -29031,22 +29030,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1.5081111, y: 1.3434337, z: 3.3703923}
   m_Center: {x: 2.0565424, y: 3.8532805, z: 1.8869967}
---- !u!114 &8902965780311592014
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4668911132044536004}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 92dde5e25b8161f4c885b5af97f2a0b4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  sceneIndex: 0
-  timer: 0
-  fadeOutSetActiveTimer: 0
-  obj: {fileID: 0}
 --- !u!54 &8902965780311592015
 Rigidbody:
   m_ObjectHideFlags: 0
