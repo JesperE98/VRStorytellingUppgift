@@ -143,10 +143,10 @@ MonoBehaviour:
   Path: Assets/Main/Audio/FMOD Audio File/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638327169226689850
+  lastModified: 638327237360684256
   FileSizes:
   - Name: Desktop
-    Value: 2168
+    Value: 2200
   Exists: 1
 --- !u!114 &-3504597086100061582
 MonoBehaviour:
@@ -264,7 +264,7 @@ MonoBehaviour:
   Path: Assets/Main/Audio/FMOD Audio File/Build/Desktop/Random Lines.bank
   Name: Random Lines
   StudioPath: bank:/Random Lines
-  lastModified: 638327169228830902
+  lastModified: 638327237364282608
   FileSizes:
   - Name: Desktop
     Value: 152288
@@ -311,7 +311,7 @@ MonoBehaviour:
   Path: Assets/Main/Audio/FMOD Audio File/Build/Desktop/Little Red Riding Hood Lines.bank
   Name: Little Red Riding Hood Lines
   StudioPath: bank:/Little Red Riding Hood Lines
-  lastModified: 638327154205273912
+  lastModified: 638327237360539442
   FileSizes:
   - Name: Desktop
     Value: 1154496
@@ -343,6 +343,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 9093
+--- !u!114 &-1678717401797909980
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Narrator Line 16
+  m_EditorClassIdentifier: 
+  Path: event:/Narrator Line 16
+  Guid:
+    Data1: 414364542
+    Data2: 1313012316
+    Data3: -1388074565
+    Data4: -1458680711
+  Banks:
+  - {fileID: 4925173543541271543}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 13707
 --- !u!114 &-1637377402341173175
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -449,12 +476,13 @@ MonoBehaviour:
   - {fileID: 7685444226832439172}
   - {fileID: 2704517098986817181}
   - {fileID: 8354950386299166337}
+  - {fileID: -1678717401797909980}
   EditorParameters: []
   MasterBanks:
   - {fileID: 7084057050574857009}
   StringsBanks:
   - {fileID: -3638308683922951286}
-  cacheTime: 638327169228830902
+  cacheTime: 638327240993025999
   cacheVersion: 131608
 --- !u!114 &276839409656376587
 MonoBehaviour:
@@ -680,10 +708,10 @@ MonoBehaviour:
   Path: Assets/Main/Audio/FMOD Audio File/Build/Desktop/Narrator Lines.bank
   Name: Narrator Lines
   StudioPath: bank:/Narrator Lines
-  lastModified: 638327169228254956
+  lastModified: 638327240993025999
   FileSizes:
   - Name: Desktop
-    Value: 1218112
+    Value: 1265152
   Exists: 1
 --- !u!114 &5142166618154093907
 MonoBehaviour:
@@ -781,7 +809,7 @@ MonoBehaviour:
   Path: Assets/Main/Audio/FMOD Audio File/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638327169226663933
+  lastModified: 638327237360658256
   FileSizes:
   - Name: Desktop
     Value: 1036
@@ -893,7 +921,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 2573
+  Length: 13707
 --- !u!114 &8354950386299166337
 MonoBehaviour:
   m_ObjectHideFlags: 0

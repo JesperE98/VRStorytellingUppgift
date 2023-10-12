@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 0.5
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 410087040}
-  m_IndirectSpecularColor: {r: 0.057948112, g: 0.059004173, b: 0.0497325, a: 0.5}
+  m_IndirectSpecularColor: {r: 0.08797107, g: 0.10639823, b: 0.13014114, a: 0.5}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -455,13 +455,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 410087039}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.010524589, y: -0.25880364, z: -0.0028200569, w: 0.96586853}
+  m_LocalRotation: {x: -0.37458795, y: -0.33673015, z: -0.4816368, w: -0.717163}
   m_LocalPosition: {x: 0, y: 3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: -1.249, y: -30, z: 0}
+  m_LocalEulerAnglesHint: {x: 12.293, y: 59.725, z: 74.846}
 --- !u!114 &410087042
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24939,7 +24939,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!1 &8224160627441029922
 GameObject:
   m_ObjectHideFlags: 0
@@ -25506,7 +25506,7 @@ MonoBehaviour:
       Data3: 547484825
       Data4: -405009663
     Path: event:/Narrator Line 6
-  m_GrandmotherEvents: []
+  m_RandomCharacterEvents: []
   _player: {fileID: 339898393768651903}
   _wolf: {fileID: 0}
 --- !u!33 &8436664080469315014
@@ -26822,6 +26822,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sceneIndex: 4
   timer: 3
+  fadeOutSetActiveTimer: 0
   obj: {fileID: 5582162343524249365}
 --- !u!54 &8902965780311592015
 Rigidbody:

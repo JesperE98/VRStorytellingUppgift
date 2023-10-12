@@ -581,7 +581,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneIndex: 2
-  timer: 0
+  timer: 3
   fadeOutSetActiveTimer: 0
   obj: {fileID: 5582162343524249365}
 --- !u!1 &595288040
@@ -1075,7 +1075,7 @@ Transform:
   m_GameObject: {fileID: 1595457591}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: 0.31146666, z: -0, w: 0.95025706}
-  m_LocalPosition: {x: -18.6, y: 1.3399999, z: -17.62}
+  m_LocalPosition: {x: -6.42, y: 0.69, z: -4}
   m_LocalScale: {x: 10.401003, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2359,7 +2359,7 @@ Transform:
   m_GameObject: {fileID: 339898393768651903}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: 0.38268274, z: -0, w: 0.9238798}
-  m_LocalPosition: {x: 119.3, y: 2.043, z: 85.5}
+  m_LocalPosition: {x: 119.5, y: 2.043, z: 91.29}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -15263,7 +15263,7 @@ SkinnedMeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 1d79c65baf5b6634bbdd64f9b78ba1e2, type: 2}
+  - {fileID: 2100000, guid: b4ecb9eea6cc3d04fb2f413c1499e865, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -15288,7 +15288,7 @@ SkinnedMeshRenderer:
   m_Quality: 0
   m_UpdateWhenOffscreen: 0
   m_SkinnedMotionVectors: 1
-  m_Mesh: {fileID: 4300002, guid: 2434f98b1d07a1442bc209e65200aecd, type: 3}
+  m_Mesh: {fileID: 4300002, guid: b7cdf40ca7aa6c74493dceabf1fb97f3, type: 3}
   m_Bones:
   - {fileID: 4020679712838665493}
   - {fileID: 4020679712838778711}
@@ -15349,7 +15349,7 @@ Animator:
   m_GameObject: {fileID: 4020679712838325969}
   m_Enabled: 1
   m_Avatar: {fileID: 9000000, guid: 2434f98b1d07a1442bc209e65200aecd, type: 3}
-  m_Controller: {fileID: 9100000, guid: 5beb7291b0e7c6d45a66f61dd16e1424, type: 2}
+  m_Controller: {fileID: 9100000, guid: a4d1c8006123a274e872bdb1c4cf6a37, type: 2}
   m_CullingMode: 1
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -19998,7 +19998,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_System: {fileID: 3030706053090056558}
-  m_MoveSpeed: 1
+  m_MoveSpeed: 1.5
   m_EnableStrafe: 1
   m_EnableFly: 0
   m_UseGravity: 1

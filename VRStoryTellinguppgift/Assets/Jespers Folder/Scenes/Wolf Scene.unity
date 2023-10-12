@@ -682,9 +682,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1873847966}
   - component: {fileID: 1873847967}
-  - component: {fileID: 1873847970}
   - component: {fileID: 1873847969}
   - component: {fileID: 1873847968}
+  - component: {fileID: 1873847970}
   m_Layer: 0
   m_Name: AudioTrigger
   m_TagString: Untagged
@@ -753,7 +753,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca6a8d19aca56f6448be3d8c08c74887, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _eventsSoundIndex: 2
+  _eventsSoundIndex: 0
 --- !u!114 &1873847970
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -766,7 +766,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 33e1d08f455eb914aaa58e92ae884ec5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _eventsSoundIndex: 4
+  _eventsSoundIndex: 0
 --- !u!1 &1992877888
 GameObject:
   m_ObjectHideFlags: 0
@@ -1375,80 +1375,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_WolfEvents:
   - Guid:
-      Data1: 644415107
-      Data2: 1231335742
-      Data3: 1279865261
-      Data4: -907348086
-    Path: event:/Wolf Line 1
-  - Guid:
-      Data1: -1537050534
-      Data2: 1234556440
-      Data3: 61045691
-      Data4: 1947289643
-    Path: event:/Wolf Line 2
-  - Guid:
       Data1: -815306510
       Data2: 1296101175
       Data3: -230324582
       Data4: 1395896263
     Path: event:/Wolf Line 3
-  - Guid:
-      Data1: 1518831724
-      Data2: 1222787917
-      Data3: 1868955047
-      Data4: -204635277
-    Path: event:/Wolf Line 4
-  m_RidingHoodEvents:
-  - Guid:
-      Data1: 20023291
-      Data2: 1193460476
-      Data3: 1618914447
-      Data4: 478955029
-    Path: event:/Little Red Riding Hood Line 1
-  - Guid:
-      Data1: 1331280752
-      Data2: 1286192581
-      Data3: 739514291
-      Data4: -1072284561
-    Path: event:/Little Red Riding Hood Line 2
-  - Guid:
-      Data1: 1460415929
-      Data2: 1306802190
-      Data3: -681934194
-      Data4: -809947013
-    Path: event:/Little Red Riding Hood Line 3
+  m_RidingHoodEvents: []
   m_NarratorEvents:
-  - Guid:
-      Data1: 399138511
-      Data2: 1088043734
-      Data3: 1067185846
-      Data4: 1010974015
-    Path: event:/Narrator Line 1
-  - Guid:
-      Data1: 951596273
-      Data2: 1171763719
-      Data3: -1974799699
-      Data4: 1911041832
-    Path: event:/Narrator Line 2
-  - Guid:
-      Data1: -356779892
-      Data2: 1247204530
-      Data3: -1164082778
-      Data4: 1927517968
-    Path: event:/Narrator Line 3
-  - Guid:
-      Data1: 2073345103
-      Data2: 1301904172
-      Data3: 45264522
-      Data4: -481014179
-    Path: event:/Narrator Line 4
   - Guid:
       Data1: -367838463
       Data2: 1158497623
       Data3: -1842872943
       Data4: 1853662880
     Path: event:/Narrator Line 5
-  m_GrandmotherEvents:
+  m_RandomCharacterEvents:
   - Guid:
       Data1: 772976086
       Data2: 1336516809
@@ -6721,8 +6661,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1.5081111, y: 1.3434337, z: 3.3703923}
-  m_Center: {x: 2.0565424, y: 3.8532805, z: 1.8869967}
+  m_Size: {x: 1.508111, y: 1.6519494, z: 3.3703923}
+  m_Center: {x: 2.056535, y: 4.007537, z: 1.8869967}
 --- !u!114 &7699899774456859151
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6735,8 +6675,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 92dde5e25b8161f4c885b5af97f2a0b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneIndex: 0
+  sceneIndex: 3
   timer: 24
+  fadeOutSetActiveTimer: 0
   obj: {fileID: 1769753658922029549}
 --- !u!4 &7846589854350039774
 Transform:

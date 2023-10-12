@@ -4,8 +4,9 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class SceneLoader : MonoBehaviour
-{   
-    private int sceneIndex = 0;
+{
+    [SerializeField]
+    private int sceneIndex;
 
     [SerializeField]
     private float timer;
@@ -23,7 +24,7 @@ public class SceneLoader : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
        if (other.tag == "Player")
-        {            
+        {
             StartCoroutine(LoadSceneRoutine());
             StartCoroutine(FadeOutRoutine());
         }
@@ -34,7 +35,7 @@ public class SceneLoader : MonoBehaviour
     {
         yield return new WaitForSeconds(timer);
 
-        AsyncOperation asyncLoad = SceneManager.LoadSceneAsync(sceneIndex++);
+        AsyncOperation asyncLoad = SceneManager.LoadSceneAsync(sceneIndex);
 
         while (!asyncLoad.isDone)
         {
