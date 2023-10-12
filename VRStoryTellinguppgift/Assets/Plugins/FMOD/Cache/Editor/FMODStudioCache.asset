@@ -96,7 +96,7 @@ MonoBehaviour:
   Path: Assets/Main/Audio/FMOD Audio File/Build/Desktop/Wolf Lines.bank
   Name: Wolf Lines
   StudioPath: bank:/Wolf Lines
-  lastModified: 638326606974649122
+  lastModified: 638327391588214114
   FileSizes:
   - Name: Desktop
     Value: 341824
@@ -244,10 +244,10 @@ MonoBehaviour:
   Path: Assets/Main/Audio/FMOD Audio File/Build/Desktop/Background Sound.bank
   Name: Background Sound
   StudioPath: bank:/Background Sound
-  lastModified: 638327299155268051
+  lastModified: 638327391587648963
   FileSizes:
   - Name: Desktop
-    Value: 3322080
+    Value: 3322464
   Exists: 1
 --- !u!114 &-3051658151256341797
 MonoBehaviour:
@@ -484,7 +484,7 @@ MonoBehaviour:
   - {fileID: 7084057050574857009}
   StringsBanks:
   - {fileID: -3638308683922951286}
-  cacheTime: 638327299155268051
+  cacheTime: 638327391588214114
   cacheVersion: 131608
 --- !u!114 &276839409656376587
 MonoBehaviour:
@@ -582,7 +582,7 @@ MonoBehaviour:
   - {fileID: -3129951562582350611}
   IsStream: 1
   Is3D: 1
-  IsOneShot: 1
+  IsOneShot: 0
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
@@ -663,7 +663,7 @@ MonoBehaviour:
   - {fileID: -3129951562582350611}
   IsStream: 1
   Is3D: 1
-  IsOneShot: 1
+  IsOneShot: 0
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
@@ -818,7 +818,7 @@ MonoBehaviour:
   - {fileID: -3129951562582350611}
   IsStream: 1
   Is3D: 1
-  IsOneShot: 1
+  IsOneShot: 0
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
