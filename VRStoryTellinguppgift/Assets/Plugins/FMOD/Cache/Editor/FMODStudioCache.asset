@@ -143,10 +143,10 @@ MonoBehaviour:
   Path: Assets/Main/Audio/FMOD Audio File/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638327237360684256
+  lastModified: 638327298079477330
   FileSizes:
   - Name: Desktop
-    Value: 2200
+    Value: 2302
   Exists: 1
 --- !u!114 &-3504597086100061582
 MonoBehaviour:
@@ -244,10 +244,10 @@ MonoBehaviour:
   Path: Assets/Main/Audio/FMOD Audio File/Build/Desktop/Background Sound.bank
   Name: Background Sound
   StudioPath: bank:/Background Sound
-  lastModified: 638326606964175306
+  lastModified: 638327299155268051
   FileSizes:
   - Name: Desktop
-    Value: 1160768
+    Value: 3322080
   Exists: 1
 --- !u!114 &-3051658151256341797
 MonoBehaviour:
@@ -477,12 +477,14 @@ MonoBehaviour:
   - {fileID: 2704517098986817181}
   - {fileID: 8354950386299166337}
   - {fileID: -1678717401797909980}
+  - {fileID: 6318728019109526606}
+  - {fileID: 1055195928268576005}
   EditorParameters: []
   MasterBanks:
   - {fileID: 7084057050574857009}
   StringsBanks:
   - {fileID: -3638308683922951286}
-  cacheTime: 638327240993025999
+  cacheTime: 638327299155268051
   cacheVersion: 131608
 --- !u!114 &276839409656376587
 MonoBehaviour:
@@ -558,6 +560,33 @@ MonoBehaviour:
   - Name: Desktop
     Value: 245568
   Exists: 1
+--- !u!114 &1055195928268576005
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/City Ambience Sound Day
+  m_EditorClassIdentifier: 
+  Path: event:/City Ambience Sound Day
+  Guid:
+    Data1: 58824377
+    Data2: 1106503169
+    Data3: -1397854321
+    Data4: -649205273
+  Banks:
+  - {fileID: -3129951562582350611}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 72840
 --- !u!114 &2111393364619050003
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -767,6 +796,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 23589
+--- !u!114 &6318728019109526606
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/City Ambience Sound Night
+  m_EditorClassIdentifier: 
+  Path: event:/City Ambience Sound Night
+  Guid:
+    Data1: -308482888
+    Data2: 1107781531
+    Data3: 1796277157
+    Data4: -1804738156
+  Banks:
+  - {fileID: -3129951562582350611}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 88720
 --- !u!114 &6923460785876932129
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -809,7 +865,7 @@ MonoBehaviour:
   Path: Assets/Main/Audio/FMOD Audio File/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638327237360658256
+  lastModified: 638327298079441424
   FileSizes:
   - Name: Desktop
     Value: 1036

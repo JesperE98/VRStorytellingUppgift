@@ -5,13 +5,17 @@ using UnityEngine;
 public class EnableTriggerRoutine : MonoBehaviour
 {
     [SerializeField]
-    private GameObject obj;
+    private GameObject[] obj;
     [SerializeField]
     private float timer;
 
     private void Start()
     {
-        obj.SetActive(false);
+        foreach (GameObject gameobject in obj) 
+        {
+            gameobject.SetActive(false);
+        }
+        
     }
 
     private void OnTriggerEnter(Collider other)
@@ -25,6 +29,9 @@ public class EnableTriggerRoutine : MonoBehaviour
     private IEnumerator EnableObjectRoutine()
     {
         yield return new WaitForSeconds(timer);
-        obj.SetActive(true);
+        foreach (GameObject gameobject in obj)
+        {
+            gameobject.SetActive(true);
+        }
     }
 }
